@@ -41,13 +41,13 @@ public class Application {
         Participation participation1 = new Participation(person1 , event1, StateType.TO_BE_CONFIRMED);
 
 
-        // SALVATAGGIO NEL DATABASE
-        /*pd.save(person1);
-        ld.save(location1);
-        ed.save(event1);
-        pd2.save(participation1);*/
 
-        System.out.println(pd.getById(1).getParticipationList());
+        // SALVATAGGIO NEL DATABASE
+        // pd.save(person1);
+        // pd2.save(participation1);
+        // pd.deleteById(1);
+        // System.out.println(pd.getById(1).getParticipationList());
+        // System.out.println(pd2.getById(4));
 
         em.close();
         emf.close();

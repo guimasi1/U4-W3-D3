@@ -20,7 +20,7 @@ public class Person {
     @Enumerated(EnumType.STRING)
     private GenderType gender;
 
-    @OneToMany(mappedBy = "person")
+    @OneToMany(mappedBy = "person", cascade = CascadeType.REMOVE)
     private List<Participation> participationList;
 
     public Person() {}

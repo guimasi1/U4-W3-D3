@@ -1,2 +1,6 @@
-package org.example.entities;public enum EventType {
+package org.example.entities;
+
+public enum EventType {
+    PUBLIC,
+    PRIVATE,
 }

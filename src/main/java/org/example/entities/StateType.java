@@ -1,2 +1,7 @@
-package org.example.entities;public class StateType {
+package org.example.entities;
+
+public enum
+StateType {
+    CONFIRMED,
+    TO_BE_CONFIRMED,
 }
